@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.lista li {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    te
+    font-family: Arial, Helvetica, sans-serif;
+    color:#bdc1c6;
+    
+}
+
+.container {
+height: 75rem;
+}
+
+.logo_central {
+    height: 29rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.busqueda {
+    padding-top: 2rem;
+    width: 70rem;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    padding-left: 10rem;
+}
+
+.contenbuscador {
+    width: 53rem;
+    border-radius: 100px;
+    border: 1px solid #bdc1c6 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenbuscador input {
+    width: 53rem;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #bdc1c6;
+    padding-left: 00.5rem;
+}
+
+.botones {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botones input {
+    background-color: #303134;
+    border: 1px solid #303134;
+    color:#bdc1c6;
+    border-radius: 5px;
+    padding: 5px 13px;
+    font-size: 1.4rem;
+    margin: 0 10px;
+}
+
+.container p {
+    color:#bdc1c6;
+    font-size: small;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+
+    width: 100%;
+    height: 10rem;
+    flex-direction: row;
+    background-color:#171717;
+   
+}
+
+.pais {
+    border-bottom: 1px solid #303134;
+    width: 100%;
+    height: 4rem;
+    color:#bdc1c6;
+    font-size: small; 
+    display: flex;
+    align-items: flex-end;
+    padding-left: 2rem;
+    align-items: center;
+    
+
+}
+
+.izquierda, .derecha {
+    display: flex;
+    flex-direction: row;
+    color:#bdc1c6;
+    font-size: small;
+   
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+}
+    
+.izquierda {
+    list-style: none;
+    position:fixed;
+    
+}
+
+.derecha {
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+}
+
+.izquierda li {
+    margin: 2rem;
+}
+
+.derecha li {
+    margin: 2rem;
+}
